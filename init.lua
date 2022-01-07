@@ -55,3 +55,5 @@ end
 
 -- Now to initalize chat commands
 dofile(_mines.MODPATH.."/chat_cmd.lua")
+
+-- Now do the globalstep at our mines_process tick rate and regenerate mines that need/trigger regen
