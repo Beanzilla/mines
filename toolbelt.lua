@@ -129,7 +129,7 @@ tools.addPercent = function (values_table)
     local val = 0
     for k, v in pairs(values_table) do
         local v1 = tools.split(v, "=")
-        val = val + tools.makePercent(v1[#v1])
+        val = val + tools.makePercent(tonumber(v1[#v1]))
     end
     return val
 end
