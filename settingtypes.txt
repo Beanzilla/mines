@@ -1,0 +1,13 @@
+# See https://github.com/minetest/minetest/blob/master/builtin/settingtypes.txt for help on settingtypes
+
+[Logging]
+# Does the mod output debug information
+mines_log_debug (Log Debug Info) bool false
+# Does the mod log notices (I.E. "Mine about to regenerate in 15 seconds")
+mines_log_notices (Log Notices) bool false
+
+[Advanced]
+# How frequent is a "tick" (How fast do ticks occur, limited by global_tick)
+mines_process_tick (Process Tick) int 1 1 5
+# Auto fill remaining percent with air?
+mines_autofill_air (Auto-Fill Air) bool true
